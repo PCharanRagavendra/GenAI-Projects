@@ -1,0 +1,5 @@
+An intelligent order tracking assistant built using LangChain, Streamlit, and a local LLM (Mistral 7B) via CTransformers.
+
+The agent integrates multiple tools — a Google Search API, Math solver, and an SQLite order database - to handle diverse user queries related to order status or product information.
+
+It validates 6-digit order IDs, processes context-aware questions, and generates accurate, conversational responses using the zero-shot reasoning capability of LLMs.
