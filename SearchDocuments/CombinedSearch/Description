@@ -1,0 +1,15 @@
+A multi-source AI agent that answers order-related questions by combining data from a SQLite database, Wikipedia, and local PDF documents.
+
+Built using LangChain and OpenAI’s GPT-3.5, it integrates multiple tools (SQL query execution, Wikipedia search, and document retrieval via FAISS embeddings) into a single conversational interface.
+
+Key Features:
+
+Uses SQLDatabaseChain to query an orders1.db SQLite database.
+
+Retrieves external information from Wikipedia using WikipediaQueryRun.
+
+Processes local PDFs into searchable chunks using FAISS vector search.
+
+Employs LangChain’s multi-tool agent architecture for intelligent query routing.
+
+Streamlit UI for seamless question–answer interaction.
