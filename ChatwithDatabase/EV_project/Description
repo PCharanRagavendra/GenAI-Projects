@@ -1,0 +1,11 @@
+A Streamlit web app that allows users to ask natural language questions about EV charging station data.
+
+It uses LangChain with OpenAI’s GPT-3.5-Turbo-Instruct model to automatically:
+
+Convert user queries into SQL statements.
+
+Execute them on a connected MySQL database.
+
+Rephrase and present the results in plain English.
+
+The app demonstrates natural language–to–database interaction using LLMs and LangChain’s SQL utilities.
