@@ -1,0 +1,14 @@
+A dual-mode AI assistant capable of answering questions from both CSV and PDF files.
+It automatically detects the uploaded file type and uses the appropriate LangChain pipeline — a CSV agent for tabular data or a RetrievalQA chain for text-based PDFs.
+
+Key Features:
+
+Upload interface for CSV and PDF files using Streamlit sidebar.
+
+CSV Mode: Uses create_csv_agent with OpenAI LLM to analyze structured data.
+
+PDF Mode: Converts PDFs into embeddings with SentenceTransformerEmbeddings and retrieves answers via Gemini-Pro (Google Generative AI).
+
+Built-in file management system to delete uploaded files.
+
+Unified question interface for multi-format document understanding.
