@@ -1,0 +1,9 @@
+cryptography
+langchain
+langchain_experimental
+langchain_core
+streamlit
+LLMMathChain
+SQLDatabase
+GoogleSearchAPIWrapper
+LLMChain
