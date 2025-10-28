@@ -1,0 +1,14 @@
+A document-based Q&A application that lets users ask questions directly from uploaded text or PDF documents.
+It uses LangChain, OpenAI GPT-3.5, and Chroma vector storage to retrieve and generate accurate answers from document content.
+
+Key Features:
+
+Loads and splits documents into smaller chunks for effective retrieval.
+
+Generates semantic embeddings using SentenceTransformerEmbeddings.
+
+Stores and retrieves document embeddings using Chroma.
+
+Utilizes RetrievalQA chain for context-aware responses.
+
+Simple Streamlit UI for user input and dynamic query answering.
