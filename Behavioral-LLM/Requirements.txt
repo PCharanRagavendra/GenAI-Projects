@@ -1,0 +1,7 @@
+streamlit
+langchain
+ctransformers
+torch
+transformers
+sentencepiece
+

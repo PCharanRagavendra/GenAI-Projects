@@ -1,0 +1,7 @@
+This application detects potential fraudulent behavior based on typing patterns using a local Mistral language model. 
+
+It captures keystroke data such as key press durations and latencies through embedded JavaScript, then analyzes the typing behavior to identify anomalies like unusually fast typing, high latency, or repetitive input. 
+
+The analyzed data is then passed to a LLM via LangChain’s CTransformers interface for further evaluation. 
+
+The app displays whether the typing behavior appears legitimate or fraudulent, providing explanations for its assessment.
